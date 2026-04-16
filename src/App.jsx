@@ -7,7 +7,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Location from "./components/Location";
 import Review from "./components/Review";
-import FloatingWhatsApp from "./components/FloatingWhatsapp";
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 function App() {
   return (
