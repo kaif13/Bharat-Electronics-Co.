@@ -59,8 +59,11 @@ const products = [
       brand: "MP Meghdoot",
       type: "Desert cooler",
     },
-    image: "https://images.unsplash.com/photo-1599982098788-52ca0a1fe39d",
-    images: ["https://images.unsplash.com/photo-1599982098788-52ca0a1fe39d"],
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-QZ_R4rTONmJeLbPON5IOSBiqmSJ4D0hnA&s",
+    images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-QZ_R4rTONmJeLbPON5IOSBiqmSJ4D0hnA&sf",
+    ],
   },
 
   // 🔥 SWITCHES (SHYNORA + HAVELLS)
@@ -77,8 +80,11 @@ const products = [
       brand: "Shynora",
       current: "6A",
     },
-    image: "https://images.unsplash.com/photo-1610228192972-a6824731d7b8",
-    images: ["https://images.unsplash.com/photo-1610228192972-a6824731d7b8"],
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497907005/IV/DK/BI/225208141/multicolor-6a-indoasian-shynora-switch-1000x1000.jpg",
+    images: [
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497907005/IV/DK/BI/225208141/multicolor-6a-indoasian-shynora-switch-1000x1000.jpg",
+    ],
   },
 
   {
@@ -128,8 +134,11 @@ const products = [
       brand: "Shynora",
       type: "3 pin socket",
     },
-    image: "https://images.unsplash.com/photo-1581092331129-293b0566a5c7",
-    images: ["https://images.unsplash.com/photo-1581092331129-293b0566a5c7"],
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497907005/IV/DK/BI/225208141/multicolor-6a-indoasian-shynora-switch-1000x1000.jpg",
+    images: [
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497907005/IV/DK/BI/225208141/multicolor-6a-indoasian-shynora-switch-1000x1000.jpg",
+    ],
   },
 
   {
@@ -144,8 +153,11 @@ const products = [
       brand: "Havells Rio",
       type: "Socket",
     },
-    image: "https://images.unsplash.com/photo-1581092331129-293b0566a5c7",
-    images: ["https://images.unsplash.com/photo-1581092331129-293b0566a5c7"],
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497907005/IV/DK/BI/225208141/multicolor-6a-indoasian-shynora-switch-1000x1000.jpg",
+    images: [
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/497907005/IV/DK/BI/225208141/multicolor-6a-indoasian-shynora-switch-1000x1000.jpg",
+    ],
   },
 
   // 🔥 MCB
@@ -161,8 +173,11 @@ const products = [
       brand: "Shynora",
       rating: "16A",
     },
-    image: "https://images.unsplash.com/photo-1581092331129-293b0566a5c7",
-    images: ["https://images.unsplash.com/photo-1581092331129-293b0566a5c7"],
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2024/7/438910853/TD/XG/XG/226481118/16a-indoasian-shynora-2-pole-modular-mini-mcb-1000x1000.jpg",
+    images: [
+      "https://5.imimg.com/data5/SELLER/Default/2024/7/438910853/TD/XG/XG/226481118/16a-indoasian-shynora-2-pole-modular-mini-mcb-1000x1000.jpg",
+    ],
   },
 
   // 🔥 LIGHTS
@@ -179,8 +194,11 @@ const products = [
       brand: "Ledure",
       power: "12W",
     },
-    image: "https://images.unsplash.com/photo-1555685812-4b7435e7c3f0",
-    images: ["https://images.unsplash.com/photo-1555685812-4b7435e7c3f0"],
+    image:
+      "https://m.media-amazon.com/images/I/41Vrmo0PzuL._SY300_SX300_QL70_FMwebp_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/41Vrmo0PzuL._SY300_SX300_QL70_FMwebp_.jpg",
+    ],
   },
 
   // 🔥 WIRE
@@ -196,8 +214,11 @@ const products = [
       brand: "Havells Rio",
       insulation: "PVC",
     },
-    image: "https://images.unsplash.com/photo-1589571894960-20bbe2828d36",
-    images: ["https://images.unsplash.com/photo-1589571894960-20bbe2828d36"],
+    image:
+      "https://m.media-amazon.com/images/I/41wVQq2h8EL._SX300_SY300_QL70_FMwebp_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/41wVQq2h8EL._SX300_SY300_QL70_FMwebp_.jpg",
+    ],
   },
 ];
 
