@@ -14,8 +14,13 @@ const products = [
     brand: "Havells",
     category: "Fan",
     description:
-      "HAVELLS Standard Frorer with 24 Months Warranty Energy Saving 1200 mm Ceiling Fan",
-    features: ["Silent motor", "Energy saving", "Durable build"],
+      "A reliable 1200 mm Havells ceiling fan made for daily home and shop use, with steady air delivery, low-noise running, and a durable motor backed by a 2 year warranty.",
+    features: [
+      "1200 mm sweep for wide air coverage",
+      "Quiet motor for bedrooms and halls",
+      "Energy-saving daily performance",
+      "Durable body with 2 year warranty",
+    ],
     price: "₹3,400",
     details: { brand: "Havells", type: "Ceiling fan", warranty: "2 years" },
     image:
@@ -30,8 +35,14 @@ const products = [
     name: "Ceiling Fan (Decorative)",
     brand: "Polar",
     category: "Fan",
-    description: "Polar BLDC decorative ceiling fan",
-    features: ["High airflow", "Stylish design"],
+    description:
+      "A decorative Polar ceiling fan with BLDC technology for efficient cooling and a premium look, suitable for bedrooms, living rooms, and modern interiors.",
+    features: [
+      "BLDC motor for lower power use",
+      "Decorative design for modern rooms",
+      "High air delivery",
+      "Smooth and quiet operation",
+    ],
     price: "₹2,200",
     details: { brand: "Polar", type: "Ceiling fan" },
     image:
@@ -46,8 +57,14 @@ const products = [
     name: "Cooler (Desert Type)",
     brand: "MP Meghdoot",
     category: "Cooler",
-    description: "Powerful desert cooler",
-    features: ["Large tank", "Strong airflow"],
+    description:
+      "A powerful desert cooler designed for strong summer cooling in larger rooms, shops, and semi-open areas with a large tank and high airflow.",
+    features: [
+      "Large water tank for longer cooling",
+      "Strong airflow for big spaces",
+      "Suitable for homes and shops",
+      "Easy daily use and maintenance",
+    ],
     price: "₹6,000",
     details: { brand: "MP Meghdoot", type: "Desert cooler" },
     image:
@@ -63,8 +80,14 @@ const products = [
     name: "Modular Switch 6A",
     brand: "Shynora",
     category: "Switch",
-    description: "Durable modular switch",
-    features: ["Shockproof", "Smooth press"],
+    description:
+      "A 6A modular switch for lights, fans, and regular household points, built for smooth operation and safe daily electrical use.",
+    features: [
+      "6A rating for regular load points",
+      "Smooth press action",
+      "Shock-resistant modular design",
+      "Fits standard modular plates",
+    ],
     price: "₹110",
     details: { brand: "Shynora", current: "6A" },
     image:
@@ -80,8 +103,14 @@ const products = [
     name: "3 Pin Socket",
     brand: "Shynora",
     category: "Socket",
-    description: "Safe socket",
-    features: ["Heat resistant"],
+    description:
+      "A compact 3 pin socket for regular electrical appliances, made with heat-resistant material for safer daily usage.",
+    features: [
+      "3 pin socket for common appliances",
+      "Heat-resistant body",
+      "Firm plug grip",
+      "Suitable for home and office points",
+    ],
     price: "₹90",
     details: { brand: "Shynora" },
     image:
@@ -92,21 +121,6 @@ const products = [
   },
 
   // 🔥 MCB
-  {
-    id: 6,
-    name: "MCB 16A",
-    brand: "Shynora",
-    category: "MCB",
-    description: "Circuit protection MCB",
-    features: ["Overload protection"],
-    price: "₹250",
-    details: { brand: "Shynora", rating: "16A" },
-    image:
-      "https://5.imimg.com/data5/SELLER/Default/2024/7/438910853/TD/XG/XG/226481118/16a-indoasian-shynora.jpg",
-    images: [
-      "https://5.imimg.com/data5/SELLER/Default/2024/7/438910853/TD/XG/XG/226481118/16a-indoasian-shynora.jpg",
-    ],
-  },
 
   // 🔥 LIGHT
   {
@@ -114,8 +128,14 @@ const products = [
     name: "LED Panel Light",
     brand: "Ledure",
     category: "Light",
-    description: "Bright LED panel",
-    features: ["Low power"],
+    description:
+      "A bright 12W LED panel light for clean ceiling lighting in rooms, counters, offices, and small commercial spaces.",
+    features: [
+      "12W power-efficient lighting",
+      "Clean panel look for ceilings",
+      "Bright and even light spread",
+      "Low heat and low maintenance",
+    ],
     price: "₹350",
     details: { brand: "Ledure", power: "12W" },
     image:
@@ -131,8 +151,14 @@ const products = [
     name: "Electrical Wire",
     brand: "Havells Rio",
     category: "Wire",
-    description: "High-quality wire",
-    features: ["Copper core"],
+    description:
+      "A dependable Havells Rio electrical wire for safe internal wiring, made for consistent current flow and long service life.",
+    features: [
+      "Copper conductor for better conductivity",
+      "Flexible insulation for easy installation",
+      "Suitable for home wiring",
+      "Reliable branded quality",
+    ],
     price: "₹180/m",
     details: { brand: "Havells Rio" },
     image:
@@ -148,8 +174,14 @@ const products = [
     name: "Switch & Socket Combo",
     brand: "Shynora",
     category: "Switch",
-    description: "Combo set",
-    features: ["Durable"],
+    description:
+      "A ready switch and socket combo for neat modular board setups, ideal for rooms, counters, and utility points.",
+    features: [
+      "Switch and socket in one set",
+      "Clean modular finish",
+      "Useful for new boards and replacement",
+      "Durable body for daily use",
+    ],
     price: "₹250",
     details: { brand: "Shynora" },
     image: switchSocketComboImage,
@@ -161,8 +193,14 @@ const products = [
     name: "MCB 32A",
     brand: "Shynora",
     category: "MCB",
-    description: "Heavy duty MCB",
-    features: ["Safe"],
+    description:
+      "A 32A MCB for heavier electrical circuits, designed to protect wiring and appliances from overload and short-circuit faults.",
+    features: [
+      "32A rating for higher load circuits",
+      "Overload protection",
+      "Short-circuit safety",
+      "Quick trip response",
+    ],
     price: "₹320",
     details: { brand: "Shynora" },
     image: mcbBreakerImage,
@@ -174,8 +212,14 @@ const products = [
     name: "Switch (Standard)",
     brand: "Havells Standard",
     category: "Switch",
-    description: "Standard switch",
-    features: ["Reliable"],
+    description:
+      "A Havells standard switch for reliable day-to-day operation in homes, shops, and offices with a clean modular finish.",
+    features: [
+      "Reliable Havells quality",
+      "Smooth switching action",
+      "Good for lights and fans",
+      "Simple modern design",
+    ],
     price: "₹140",
     details: { brand: "Havells" },
     image:
@@ -190,8 +234,14 @@ const products = [
     name: "LED Bulb",
     brand: "Ledure",
     category: "Light",
-    description: "Energy efficient bulb",
-    features: ["Long life"],
+    description:
+      "An energy-efficient LED bulb for daily room lighting, offering bright output with low electricity consumption.",
+    features: [
+      "Low power consumption",
+      "Bright everyday lighting",
+      "Long service life",
+      "Easy replacement for regular bulbs",
+    ],
     price: "₹120",
     details: { brand: "Ledure" },
     image: ledBulbImage,
@@ -202,8 +252,14 @@ const products = [
     name: "Socket 16A",
     brand: "Havells Standard",
     category: "Socket",
-    description: "Heavy duty socket.",
-    features: ["Safe"],
+    description:
+      "A 16A Havells socket made for heavier appliances such as geysers, irons, heaters, and kitchen equipment.",
+    features: [
+      "16A rating for heavy appliances",
+      "Strong plug grip",
+      "Heat-resistant construction",
+      "Trusted Havells build quality",
+    ],
     price: "₹160",
     details: { brand: "Havells" },
     image:
@@ -218,7 +274,12 @@ const products = [
     brand: "Shynora",
     category: "Switch",
     description: "Premium quality modular switch with smooth operation.",
-    features: ["Shockproof", "Long life"],
+    features: [
+      "Premium smooth press feel",
+      "Shock-resistant body",
+      "Long-life switching mechanism",
+      "Best for visible modular boards",
+    ],
     price: "₹130",
     details: { brand: "Shynora" },
     image: premiumSwitchImage,
@@ -230,8 +291,14 @@ const products = [
     name: "Socket 5A",
     brand: "Shynora",
     category: "Socket",
-    description: "Durable socket for daily usage.",
-    features: ["Heat resistant"],
+    description:
+      "A 5A socket for light electrical loads and everyday plug points, suitable for chargers, lamps, and small appliances.",
+    features: [
+      "5A rating for light appliances",
+      "Heat-resistant material",
+      "Compact modular fit",
+      "Firm socket contact",
+    ],
     price: "₹100",
     details: { brand: "Shynora" },
     image: socket5aImage,
@@ -243,8 +310,14 @@ const products = [
     name: "MCB 20A",
     brand: "Shynora",
     category: "MCB",
-    description: "Reliable circuit breaker.",
-    features: ["Overload protection"],
+    description:
+      "A 20A MCB for medium-load circuits, helping protect wiring from overloads and unexpected electrical faults.",
+    features: [
+      "20A rating for medium loads",
+      "Overload protection",
+      "Short-circuit protection",
+      "Easy reset after trip",
+    ],
     price: "₹280",
     details: { brand: "Shynora" },
     image: mcbBreakerImage,
@@ -256,11 +329,12 @@ const products = [
     name: "Switch Plate 8 Module",
     brand: "Havells Standard",
     category: "Switch",
-    description: "Strong and stylish plate.",
+    description:
+      "A stylish 8 module Havells switch plate for building a clean multi-switch board with a premium matte finish.",
     features: [
       "Sleek design for soft operation of switches",
       "FR grade engineering plastic",
-      "Black finish that suites with any interior",
+      "Black finish that suits modern interiors",
       "Easy and quick to install",
       "Slim and elegant design plate",
       "Matte finish",
@@ -280,8 +354,14 @@ const products = [
     name: "Switch Board Rio",
     brand: "Havells Rio",
     category: "Switch",
-    description: "Premium Rio series board.",
-    features: ["Elegant design"],
+    description:
+      "A premium Havells Rio switch board for neat electrical fittings with a clean, modern look for homes and commercial spaces.",
+    features: [
+      "Premium Rio series finish",
+      "Elegant modular design",
+      "Useful for multi-point boards",
+      "Strong and easy to install",
+    ],
     price: "₹500",
     details: { brand: "Havells Rio" },
     image:
@@ -296,7 +376,8 @@ const products = [
     name: "Wire 1.5 sqmm",
     brand: "Havells Rio",
     category: "Wire",
-    description: "Flexible copper wire.",
+    description:
+      "A 1.5 sqmm Havells Rio copper wire for lighting and regular low-load circuits, made for safe concealed wiring.",
     features: [
       "Flame Retardant High Grade Insulation",
       "101 % Conductivity",
@@ -317,7 +398,8 @@ const products = [
     name: "Wire 2.5 sqmm",
     brand: "Havells Rio",
     category: "Wire",
-    description: "Heavy duty wiring cable.",
+    description:
+      "A 2.5 sqmm Havells Rio copper wire for heavier home circuits such as sockets, kitchen points, and utility wiring.",
     features: [
       "Flame Retardant High Grade Insulation",
       "101 % Conductivity",
@@ -338,8 +420,14 @@ const products = [
     name: "LED Tube Light",
     brand: "Ledure",
     category: "Light",
-    description: "Bright LED tube.",
-    features: ["Energy saving"],
+    description:
+      "A slim LED tube light for bright, even illumination in rooms, shops, counters, and office areas.",
+    features: [
+      "Bright tube-style lighting",
+      "Energy-saving LED technology",
+      "Wide light coverage",
+      "Good for shops and rooms",
+    ],
     price: "₹220",
     details: { brand: "Ledure" },
     image: ledTubeLightImage,
@@ -351,8 +439,14 @@ const products = [
     name: "LED Bulb 12W",
     brand: "Ledure",
     category: "Light",
-    description: "High brightness bulb.",
-    features: ["Long life"],
+    description:
+      "A 12W LED bulb with strong brightness for daily home and shop use while keeping electricity usage low.",
+    features: [
+      "12W bright output",
+      "Low electricity consumption",
+      "Long operating life",
+      "Suitable for rooms and counters",
+    ],
     price: "₹150",
     details: { brand: "Ledure" },
     image: ledBulbImage,
@@ -364,8 +458,14 @@ const products = [
     name: "Flood Light 100W",
     brand: "Ledure",
     category: "Light",
-    description: "Outdoor flood light.",
-    features: ["Waterproof"],
+    description:
+      "A 100W outdoor LED flood light for gates, parking areas, shop fronts, warehouses, and open spaces.",
+    features: [
+      "100W high brightness",
+      "Outdoor weather-resistant body",
+      "Wide beam coverage",
+      "Ideal for security lighting",
+    ],
     price: "₹650",
     details: { brand: "Ledure" },
     image: floodLightImage,
@@ -377,8 +477,14 @@ const products = [
     name: "Table Fan",
     brand: "Polar",
     category: "Fan",
-    description: "Compact table fan.",
-    features: ["Portable"],
+    description:
+      "A compact Polar table fan for personal cooling on desks, counters, bedrooms, and small work areas.",
+    features: [
+      "Portable table-top design",
+      "Good airflow for personal cooling",
+      "Easy to move between rooms",
+      "Suitable for counters and study tables",
+    ],
     price: "₹1,500",
     details: { brand: "Polar" },
     image:
@@ -398,8 +504,13 @@ const products = [
     brand: "Polar",
     category: "Fan",
     description:
-      "Polar Annexer 400mmWall MountedFan Mauve|Button Control Oscillating ElectricPlastic with 2 Year Warranty 400 mm Wall Fan (MAUVE | Pack of 1)",
-    features: ["High airflow"],
+      "A 400 mm Polar wall fan with oscillation and button control, ideal for rooms, shops, kitchens, and counters where floor space is limited.",
+    features: [
+      "400 mm wall-mounted fan",
+      "Oscillating airflow coverage",
+      "Saves floor and table space",
+      "2 year warranty",
+    ],
     price: "₹2,000",
     details: { brand: "Polar" },
     image:
@@ -417,8 +528,14 @@ const products = [
     name: "Cooler Personal",
     brand: "MP Meghdoot",
     category: "Cooler",
-    description: "Large Tank Capacity:70L, 110DIA  28MM MOTOR",
-    features: ["Big tank", "3 Side Honeycomb Pad"],
+    description:
+      "A personal MP Meghdoot cooler with 70L tank capacity and 3-side honeycomb pads for strong cooling in homes and shops.",
+    features: [
+      "70L large water tank",
+      "3-side honeycomb cooling pads",
+      "Strong motor for better air throw",
+      "Useful for summer daily cooling",
+    ],
     price: "₹4,000",
     details: { brand: "MP Meghdoot" },
     image:

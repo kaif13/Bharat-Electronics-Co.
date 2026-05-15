@@ -25,9 +25,7 @@ function Location() {
               <h3 className="text-lg font-semibold">Bharat Electronics Co.</h3>
 
               {/* 👉 Replace landmark properly */}
-              <p className="text-sm text-stone-400 mt-1">
-                📍 Near [Your Landmark], Sitapur
-              </p>
+              <p className="text-sm text-stone-400 mt-1">📍Sitapur</p>
 
               <p className="text-sm text-stone-400">🕒 Open: 9 AM – 8 PM</p>
             </div>

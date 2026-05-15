@@ -85,7 +85,12 @@ function ProductDetail() {
             </h1>
 
             {/* DESCRIPTION */}
-            <p className="text-sm text-stone-300">{product.description}</p>
+            <div className="rounded-xl bg-white/5 p-4">
+              <h2 className="mb-2 text-sm font-semibold">Description</h2>
+              <p className="text-sm leading-6 text-stone-300">
+                {product.description}
+              </p>
+            </div>
 
             {/* PRICE + TRUST */}
             <div className="space-y-2">
@@ -120,7 +125,7 @@ function ProductDetail() {
 
             {/* FEATURES */}
             <div className="rounded-xl bg-white/5 p-4">
-              <h2 className="text-sm font-semibold mb-3">Features</h2>
+              <h2 className="text-sm font-semibold mb-3">Product Features</h2>
 
               <div className="grid grid-cols-2 gap-2">
                 {product.features?.map((f) => (
