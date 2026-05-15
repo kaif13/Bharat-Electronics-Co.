@@ -6,14 +6,15 @@ function ProductCard({ product, index }) {
   return (
     <article
       onClick={() => navigate(`/product/${product.id}`)}
-      className="group cursor-pointer overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-3 sm:p-4 hover:border-white/20 transition"
+      className="group cursor-pointer overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-3 transition hover:border-white/20 hover:bg-white/[0.07] sm:p-4"
     >
       {/* Image */}
-      <div className="relative overflow-hidden rounded-xl">
+      <div className="relative overflow-hidden rounded-xl bg-white">
         <img
           src={product.image}
           alt={product.name}
-          className="h-36 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-48"
+          loading="lazy"
+          className="h-36 w-full object-contain p-3 transition duration-500 group-hover:scale-105 sm:h-48"
         />
 
         {/* Badge */}
@@ -38,7 +39,7 @@ function ProductCard({ product, index }) {
 
         <p className="text-sm font-semibold text-white">{product.price}</p>
 
-        <p className="text-[11px] text-green-400">✔ In stock today</p>
+        <p className="text-[11px] text-green-400">Available today</p>
 
         {/* WhatsApp Button */}
         <a

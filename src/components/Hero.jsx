@@ -1,20 +1,20 @@
 import { useEffect, useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
-function Hero() {
-  const slides = [
-    {
-      image:
-        "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200",
-      title: "Best Price Electrical Products in Varanasi",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1200",
-      title: "Premium Fans, Lights & Wiring Solutions",
-    },
-  ];
+const slides = [
+  {
+    image:
+      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200",
+    title: "Best Price Electrical Products in Varanasi",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1200",
+    title: "Premium Fans, Lights & Wiring Solutions",
+  },
+];
 
+function Hero() {
   const [current, setCurrent] = useState(0);
 
   // Auto slide
@@ -66,7 +66,7 @@ function Hero() {
           {/* CTA */}
           <div className="flex flex-col gap-3 sm:flex-row">
             <a
-              href="https://wa.me/919999999999?text=Hi%20I%20want%20product%20details"
+              href="https://wa.me/919936712393?text=Hi%20I%20want%20product%20details"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center gap-2 rounded-full bg-green-500 px-6 py-3 text-sm font-semibold text-black hover:bg-green-600 transition"
@@ -83,7 +83,7 @@ function Hero() {
             </a>
           </div>
 
-          {/* 🔥 Trust Strip (STEP 10) */}
+          {/* Trust strip */}
           <div className="pt-4 flex flex-col gap-2 text-sm text-stone-300 sm:flex-row sm:gap-6">
             <p>✔ No waiting for delivery</p>
             <p>✔ Instant shop availability</p>

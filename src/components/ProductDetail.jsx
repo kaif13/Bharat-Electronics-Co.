@@ -7,12 +7,14 @@ function ProductDetail() {
   const { id } = useParams();
   const product = products.find((item) => String(item.id) === id);
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeImageView, setActiveImageView] = useState({
+    productId: null,
+    index: 0,
+  });
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    setActiveIndex(0);
-  }, [product]);
+  }, [id]);
 
   if (!product) {
     return (
@@ -26,6 +28,8 @@ function ProductDetail() {
   }
 
   const images = product.images || [product.image];
+  const activeIndex =
+    activeImageView.productId === product.id ? activeImageView.index : 0;
   const activeImage = images[activeIndex];
 
   return (
@@ -42,11 +46,11 @@ function ProductDetail() {
         <div className="grid gap-8 lg:grid-cols-2">
           {/* LEFT: IMAGE */}
           <div className="space-y-3">
-            <div className="overflow-hidden rounded-2xl">
+            <div className="overflow-hidden rounded-2xl bg-white">
               <img
                 src={activeImage}
                 alt={product.name}
-                className="h-[300px] w-full object-contain sm:h-[450px]"
+                className="h-[300px] w-full object-contain p-4 sm:h-[450px]"
               />
             </div>
 
@@ -56,8 +60,11 @@ function ProductDetail() {
                 <img
                   key={i}
                   src={img}
-                  onClick={() => setActiveIndex(i)}
-                  className={`h-14 w-14 cursor-pointer rounded-lg object-cover border ${
+                  alt={`${product.name} view ${i + 1}`}
+                  onClick={() =>
+                    setActiveImageView({ productId: product.id, index: i })
+                  }
+                  className={`h-14 w-14 cursor-pointer rounded-lg border bg-white object-contain p-1 ${
                     i === activeIndex ? "border-white" : "border-white/30"
                   }`}
                 />
@@ -93,7 +100,7 @@ function ProductDetail() {
 
             {/* CTA */}
             <a
-              href={`https://wa.me/919999999999?text=Hi%20I%20want%20price%20and%20availability%20for%20${encodeURIComponent(
+              href={`https://wa.me/919936712393?text=Hi%20I%20want%20price%20and%20availability%20for%20${encodeURIComponent(
                 product.name,
               )}`}
               target="_blank"

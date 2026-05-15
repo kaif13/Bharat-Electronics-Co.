@@ -17,7 +17,7 @@ function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-6 sm:flex">
-          <a href="#product" className="hover:text-white/80">
+          <a href="#products" className="hover:text-white/80">
             Products
           </a>
 
@@ -39,6 +39,9 @@ function Header() {
 
         {/* Hamburger */}
         <button
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded={isOpen}
           onClick={() => setIsOpen(!isOpen)}
           className="sm:hidden flex flex-col gap-1"
         >

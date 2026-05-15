@@ -1,3 +1,11 @@
+import floodLightImage from "../assets/products/flood-light.jpg";
+import ledBulbImage from "../assets/products/led-bulb.jpg";
+import ledTubeLightImage from "../assets/products/led-tube-light.jpg";
+import mcbBreakerImage from "../assets/products/mcb-breaker.jpg";
+import premiumSwitchImage from "../assets/products/premium-switch.jpg";
+import socket5aImage from "../assets/products/socket-5a.jpg";
+import switchSocketComboImage from "../assets/products/switch-socket-combo.jpg";
+
 const products = [
   // 🔥 FANS
   {
@@ -144,8 +152,8 @@ const products = [
     features: ["Durable"],
     price: "₹250",
     details: { brand: "Shynora" },
-    image: "https://via.placeholder.com/300",
-    images: ["https://via.placeholder.com/300"],
+    image: switchSocketComboImage,
+    images: [switchSocketComboImage],
   },
 
   {
@@ -157,8 +165,8 @@ const products = [
     features: ["Safe"],
     price: "₹320",
     details: { brand: "Shynora" },
-    image: "https://via.placeholder.com/300",
-    images: ["https://via.placeholder.com/300"],
+    image: mcbBreakerImage,
+    images: [mcbBreakerImage],
   },
 
   {
@@ -186,8 +194,8 @@ const products = [
     features: ["Long life"],
     price: "₹120",
     details: { brand: "Ledure" },
-    image: "https://via.placeholder.com/300",
-    images: ["https://via.placeholder.com/300"],
+    image: ledBulbImage,
+    images: [ledBulbImage],
   },
   {
     id: 13,
@@ -213,8 +221,8 @@ const products = [
     features: ["Shockproof", "Long life"],
     price: "₹130",
     details: { brand: "Shynora" },
-    image: "https://via.placeholder.com/300",
-    images: ["https://via.placeholder.com/300"],
+    image: premiumSwitchImage,
+    images: [premiumSwitchImage],
   },
 
   {
@@ -226,8 +234,8 @@ const products = [
     features: ["Heat resistant"],
     price: "₹100",
     details: { brand: "Shynora" },
-    image: "https://via.placeholder.com/300",
-    images: ["https://via.placeholder.com/300"],
+    image: socket5aImage,
+    images: [socket5aImage],
   },
 
   {
@@ -239,8 +247,8 @@ const products = [
     features: ["Overload protection"],
     price: "₹280",
     details: { brand: "Shynora" },
-    image: "https://via.placeholder.com/300",
-    images: ["https://via.placeholder.com/300"],
+    image: mcbBreakerImage,
+    images: [mcbBreakerImage],
   },
 
   {
@@ -334,8 +342,8 @@ const products = [
     features: ["Energy saving"],
     price: "₹220",
     details: { brand: "Ledure" },
-    image: "https://via.placeholder.com/300",
-    images: ["https://via.placeholder.com/300"],
+    image: ledTubeLightImage,
+    images: [ledTubeLightImage],
   },
 
   {
@@ -347,8 +355,8 @@ const products = [
     features: ["Long life"],
     price: "₹150",
     details: { brand: "Ledure" },
-    image: "https://via.placeholder.com/300",
-    images: ["https://via.placeholder.com/300"],
+    image: ledBulbImage,
+    images: [ledBulbImage],
   },
 
   {
@@ -360,22 +368,9 @@ const products = [
     features: ["Waterproof"],
     price: "₹650",
     details: { brand: "Ledure" },
-    image: "https://via.placeholder.com/300",
-    images: ["https://via.placeholder.com/300"],
+    image: floodLightImage,
+    images: [floodLightImage],
   },
-
-  // {
-  //   id: 24,
-  //   name: "Ceiling Fan BLDC",
-  //   brand: "Havells",
-  //   category: "Fan",
-  //   description: "Energy efficient BLDC fan.",
-  //   features: ["Silent"],
-  //   price: "₹4,200",
-  //   details: { brand: "Havells" },
-  //   image: "https://via.placeholder.com/300",
-  //   images: ["https://via.placeholder.com/300"],
-  // },
 
   {
     id: 25,

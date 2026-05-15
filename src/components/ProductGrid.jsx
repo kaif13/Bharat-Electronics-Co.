@@ -21,7 +21,7 @@ function ProductGrid() {
 
   return (
     <section
-      id="product"
+      id="products"
       className="bg-black px-4 py-14 text-white sm:px-6 lg:px-8"
     >
       <div className="mx-auto max-w-7xl">
@@ -36,6 +36,7 @@ function ProductGrid() {
         <div className="flex flex-wrap justify-center gap-2 mb-8">
           {categories.map((cat) => (
             <button
+              type="button"
               key={cat}
               onClick={() => setActive(cat)}
               className={`px-4 py-2 rounded-full text-sm border ${
